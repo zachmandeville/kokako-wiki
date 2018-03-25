@@ -7,4 +7,4 @@ This page collects notes that aren't necessarily specific to a language (or aren
 
 ## Programming Thoughts
 ## Test Driven Development
-[Overview of Test Driven Development](test-driven-development-overview)
+[Overview of Test Driven Development](reference-notes/test-driven-development-overview)
