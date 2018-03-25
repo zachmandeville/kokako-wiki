@@ -4,8 +4,7 @@
 # The great array functions.
 These array functions let us move items into and out of an array.
 
-**Push
-**
+**Push**
 add an item to the end of an array.
 
 **Pop **
