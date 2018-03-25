@@ -9,6 +9,7 @@
 [Repeat Function](javascript/repeat-function)
 [While Loops](javascript/while-loops)
 [Regular Expressions](javascript/regular-expressions)
+[data coercion](javascript/data-coercion)
 ## Higher Order Functions
 [array.map()](javascript/map)
 [array.filter()](javascript/filter)
