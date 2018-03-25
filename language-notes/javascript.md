@@ -5,3 +5,4 @@
 [Logical Operators](javascript/logical-operators)
 [Push, Pop, Shift, Unshift](javascript/push-pop-shift-unshift)
 [For Loops](javascript/for-loops)
+[Repeat Function](javascript/repeat-function)
