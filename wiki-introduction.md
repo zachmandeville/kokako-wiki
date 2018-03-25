@@ -26,11 +26,11 @@ The problem with this notion is that it puts the emphasis on the end-product-- y
 ## Structure this page around what you'd like to know, using headers.**
 * Now you have the start of a page, invite some more knowledge by naming the things you will soon know.  This also helps structure the page for others (or future you) to fill out.
 * For example, with rsync, I want to know what it is, how to use it, example commands for it, and where I can learn more.  Those become my headers:
-  *     -Background
-  *     -Usage
-  *     -Examples
-  *     -More Resources
-*     Now I have a basic structure for my investigation, and others who want to help know the questions we are seeking answers for.
+	* Background
+	* Usage
+	* Examples
+	* More Resources
+* Now I have a basic structure for my investigation, and others who want to help know the questions we are seeking answers for.
 ## Let the Magic Happen
 *  Now that you've posed this want to the world, you can be in a state of empowered reception.
 *  The page with all the ansers you want now exists, it just needs to be fleshed out.  So as I start to research rsync more, I'll place the answers I found into this wiki page.  Slowly, I'll find a body of knowledge building up around me.
