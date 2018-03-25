@@ -5,6 +5,19 @@
 At the top of HTML pages, within the `<head>` you'll see a bunch of `<meta>`  tags, each with different attributes for their use.  This page describes the ones we've encountered, what they're for, and how to use them!
 
 # The Meta Tags
+
+## meta name: author
+This would be the author of the webpage.  Not necessary, but maybe helpful if you want people to know _you_ made this thing.  
+```
+<meta name="author" content="The Webmaster">
+```
+
+## meta name:description
+A short description of your homepage.  This is picked first, if available, for the description in search engine results.  without this, the search engine will just print whatever first words you got on the site.  So set this if you want to have a nice summary in the search result (it's also useful for SEO but I don't really care about that?)
+```
+<meta name="description" content="This is my webpage and it'll be real good check it out!">
+```
+
 ## meta Charset
 This determines how the characters in your html are encoded.  It's useful for when you have special characters (not letters or numbers) in your html posts that you want to be displayed properly.
 
