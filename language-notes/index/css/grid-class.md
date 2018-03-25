@@ -17,7 +17,7 @@ Where i'ma try to use it is on mobile, when I want a header and footer, and then
 I think.
 
 update:
-yep!  And you can do cool stuff with grid-template-area too, where you give each of your individual divs their own id, then map their placing using grid-template-area.  For an example of this, check zach's js-calculator CSS:
+yep!  And you can do cool stuff with grid-template-area too, where you give each of your individual divs their own id, then map their placing using grid-template-area.  For an example of this, check [zach's js-calculator ](https://zachmandeville.github.io/js-calculator/)CSS:
 
 ```
 .calculator{
