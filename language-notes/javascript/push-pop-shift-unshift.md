@@ -7,7 +7,7 @@ These array functions let us move items into and out of an array.
 **Push**
 add an item to the end of an array.
 
-**Pop **
+**Pop**
 remove the last item from an array (but this can be assigned elsewhere.  like you can say
 `X=array.pop` and so X now equals the last item in the array.
 
