@@ -10,6 +10,7 @@
 [While Loops](javascript/while-loops)
 [Regular Expressions](javascript/regular-expressions)
 [data coercion](javascript/data-coercion)
+[Pass By Reference](pass-by-reference)
 ## Higher Order Functions
 [array.map()](javascript/map)
 [array.filter()](javascript/filter)
