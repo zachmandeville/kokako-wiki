@@ -6,4 +6,5 @@ Here we can collect cool tips for each other, and all the thigns we want to reme
 
 
 [HTML](html)
-[CSS](css)
+[CSS](css/index
+)
