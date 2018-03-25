@@ -3,4 +3,4 @@
 
 # Our Ol' Friend HTML!
 
-[Meta Tags and When to Use them!](anguage-notes/html/meta-tags)
+[Meta Tags and When to Use them!](meta-tags)
