@@ -8,6 +8,7 @@
 [For Loops](javascript/for-loops)
 [Repeat Function](javascript/repeat-function)
 [While Loops](javascript/while-loops)
+[Regular Expressions](javascript/regular-expressions)
 ## Higher Order Functions
 [array.map()](javascript/map)
 [array.filter()](javascript/filter)
