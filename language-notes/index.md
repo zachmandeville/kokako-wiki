@@ -5,4 +5,4 @@
 Here we can collect cool tips for each other, and all the thigns we want to remember, about our various languages!
 
 
-[HTML](HTML/index)
+[HTML](html)
