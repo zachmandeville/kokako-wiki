@@ -1,5 +1,5 @@
 <!-- TITLE: Basic Functions And The Spoon -->
-<!-- SUBTITLE: A quick summary of Basic Functions And The Spoon -->
+<!-- SUBTITLE: Simple things are both obvious and endlessly useful. -->
 
 # Background 
 Whenever I would read up on some language, i'd get frustrated that they always started out so basic. *Here's how you can **add **a number, and **subtract** a number, and **times** a number, and make a variable a new number!* it felt condescending kinda?  Or it felt like they were going stupidly basic and that there was some better improved version of the thing I just learned that they'd tell me later.  So the early stages of programming feels like spinning your wheels and literally learning how to count again.
