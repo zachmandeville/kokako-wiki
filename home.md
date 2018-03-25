@@ -11,7 +11,7 @@ It's meant to be used in conjunction with our student handbook.  It's meant to b
 
 * [An Introduction to how to wiki](wiki-introduction)
 A guide written by yr man Zach about using Wikis as a magical practice.
-* [Language Notes](language-notes/index)
+* [Language Notes](language-notes)
 Our collected notes about the languages we are learning and using.
 * [Our Projects](our-projects/index)
 Collected notes and strategies for our different cohort projects.
