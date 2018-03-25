@@ -2,4 +2,4 @@
 <!-- SUBTITLE: Our Stylish Friend CSS -->
 
 # CSS: Our Stylish Friend!
-[display: grid](grid-class)
+[display: grid](css/grid-class)
