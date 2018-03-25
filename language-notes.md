@@ -2,5 +2,5 @@
 <!-- SUBTITLE: Notes and Tips on our Various Languages -->
 
 # Language Notes!
-[HTML](/html)
-[CSS](/css)
+[HTML](language-notes/html)
+[CSS](language-notes/css)
