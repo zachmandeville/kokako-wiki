@@ -4,4 +4,4 @@
 # Language Notes!
 [HTML](language-notes/html)
 [CSS](language-notes/css)
-[Javascript](javascript)
+[Javascript](language-notes/javascript)
