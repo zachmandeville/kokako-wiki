@@ -7,7 +7,7 @@ This page collects notes that aren't necessarily specific to a language (or aren
 
 ## Programming Thoughts
 [Math, Programming, and Gossip](reference-notes/math-programming-and-gossip)
-[Basic Functions and the Spoon](javascript/basic-functions-and-the-spoon)
+[Basic Functions and the Spoon](reference-notes/basic-functions-and-the-spoon)
 ## Test Driven Development
 [Overview of Test Driven Development](reference-notes/test-driven-development-overview)
 ## Servers
