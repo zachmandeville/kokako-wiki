@@ -100,3 +100,9 @@ MUUUCH more readable and reusable!!  The trick here is that the function you wro
 So you can refactor by isolating and writing functions, as long as they have the ability to accept variables that were defined before.  If you don't give them that option, they ain't going to work!
 
 
+## Midnight Espresso Analogy
+
+When you go to Midnight Espresso, you order a coffee, and then just have to wait until the coffee is finished.  The line is held as the cashier makes coffee and you stand by the counter.   Then the coffee is given to you and you can sit down.  This is **synchronous**.
+
+Other coffee shops will give you a number right after you order.  Then you can sit down, do your thing, not think about the coffee _until_ it's finished.  At that moment, the cashier calls your number, your return and grab your coffee.  This is **asynchronous**.  The cashier offered you a **callback** to let you know their coffee-making function was done--but did this without interrupting yr own flow.
+
