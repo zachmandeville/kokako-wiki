@@ -1,6 +1,17 @@
 <!-- Title: Async Functions -->
 <!-- Subtitle: further notes about async functions -->
 
+
+# Summary
+Asynchronous functions are a common function type in javascript programming (and especially node programming).  They allow you to run a function without interrupting the rest of the code running.  It runs asyncrhonously from the rest of the code.  In this way, you can have multiple processes running at once (e.g.: displaying an interface while the background processes are loading).
+
+# Midnight Espresso Analogy
+
+When you go to Midnight Espresso, you order a coffee, and then just have to wait until the coffee is finished.  The line is held as the cashier makes coffee and you stand by the counter.   Then the coffee is given to you and you can sit down.  This is **synchronous**.
+
+Other coffee shops will give you a number right after you order.  Then you can sit down, do your thing, not think about the coffee _until_ it's finished.  At that moment, the cashier calls your number, your return and grab your coffee.  This is **asynchronous**.  The cashier offered you a **callback** to let you know their coffee-making function was done--but did this without interrupting yr own flow.
+
+
 # File List vs. User Selection
 
 When accessing files in a list, it comes as an array.  If you were to turn this then into an object, the order of each line isn't set.  The object could pull 4,1,2,3,0 from the array instead of 0,1,2,3,4.
@@ -99,10 +110,4 @@ MUUUCH more readable and reusable!!  The trick here is that the function you wro
 
 So you can refactor by isolating and writing functions, as long as they have the ability to accept variables that were defined before.  If you don't give them that option, they ain't going to work!
 
-
-## Midnight Espresso Analogy
-
-When you go to Midnight Espresso, you order a coffee, and then just have to wait until the coffee is finished.  The line is held as the cashier makes coffee and you stand by the counter.   Then the coffee is given to you and you can sit down.  This is **synchronous**.
-
-Other coffee shops will give you a number right after you order.  Then you can sit down, do your thing, not think about the coffee _until_ it's finished.  At that moment, the cashier calls your number, your return and grab your coffee.  This is **asynchronous**.  The cashier offered you a **callback** to let you know their coffee-making function was done--but did this without interrupting yr own flow.
 
