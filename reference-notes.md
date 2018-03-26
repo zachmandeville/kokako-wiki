@@ -10,3 +10,6 @@ This page collects notes that aren't necessarily specific to a language (or aren
 [Basic Functions and the Spoon](javascript/basic-functions-and-the-spoon)
 ## Test Driven Development
 [Overview of Test Driven Development](reference-notes/test-driven-development-overview)
+## Servers
+[GET and Post Requests](reference-notes/get-and-post)
+

@@ -12,6 +12,8 @@
 [data coercion](javascript/data-coercion)
 [Pass By Reference](javascript/pass-by-reference)
 ## Higher Order Functions
+[[Async Function](javascript/async-functions)
+[Callback Functions](javascript/callback-functions)
 [array.map()](javascript/map)
 [array.filter()](javascript/filter)
 [array.find()](javascript/find)
