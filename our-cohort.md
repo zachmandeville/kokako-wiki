@@ -19,6 +19,7 @@
 ## Steve
 ## Theta
 ## Zach
+Thanks for making this thing Zach! 
 
 # The Teachers
 ## Harrison
