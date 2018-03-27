@@ -1,5 +1,5 @@
-<-!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: Home -->
+<!-- SUBTITLE: We are Awesome! -->
 
 # Welcome to the Kokako Wiki!
 
@@ -15,6 +15,8 @@ A guide written by yr man Zach about using Wikis as a magical practice.
 Our collected notes about the languages we are learning and using.
 * [Reference Notes](reference-notes)
 General thoughts and tips around programming, and the coding we are doing here. (Node, TDD, Server stuff, etc.)
+* [Te Reo](te-reo)
+Collected studies for the Maori language.
 * [Our Projects](our-projects/index)
 Collected notes and strategies for our different cohort projects.
 *  [Our Cohort](our-cohort)

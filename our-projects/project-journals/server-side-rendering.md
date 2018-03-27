@@ -27,4 +27,5 @@ Can be referenced in your view with:
 
 and that entire HTML block will display in place of that {{}} snippet.
 
-
+## reg.param:ids
+We talked about this at lecture, but I coudln't quite see the code itself and so not sure what to put here but i'ma research more later!
