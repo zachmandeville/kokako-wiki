@@ -3,6 +3,7 @@
 
 # Javascript: Our Spirited Friend
 ## General
+[Variables as Functions](javascript/variables-as-functions)
 [Logical Operators](javascript/logical-operators)
 [Push, Pop, Shift, Unshift](javascript/push-pop-shift-unshift)
 [For Loops](javascript/for-loops)
@@ -17,3 +18,5 @@
 [array.map()](javascript/map)
 [array.filter()](javascript/filter)
 [array.find()](javascript/find)
+## Fun with Servers
+[routes](javascript/routes)
