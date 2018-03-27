@@ -42,8 +42,10 @@ End the test and if there's an error, throw it!
 
 
 # Cool Tips
-when running a get request, youc an have `.query` and then pass what is being queried as an object, i.e `name: harrison` instead of having to type `?name=harrison`
 
-`console.log(res,text)` Will log to the console your html...as that is marked as TEXT in the http being transferred.
+* When testing handlebar templates, to make sure the data is right, you want to use .trim for the text request.  Otherwise, the handlebar could be putting in unintentional whitespace that'll mess up your tests.
 
+* when running a get request, youc an have `.query` and then pass what is being queried as an object, i.e `name: harrison` instead of having to type `?name=harrison`
+
+* `console.log(res,text)` Will log to the console your html...as that is marked as TEXT in the http being transferred.
 
