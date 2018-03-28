@@ -12,5 +12,10 @@ S('h2.title').text()
 ```
 This would mean: 'return the text for the h2 tagged item with the class of title.'
 
+#Starting the Module
+
+The command to run Cheerio in your terminal is
+> command here
+
 
 
