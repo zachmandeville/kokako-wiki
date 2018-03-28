@@ -27,4 +27,5 @@ Ways we talk about code to one another, to work together faster.
 [Routes](reference-notes/routes)
 [Spinning Up an Express Server](reference-notes/spinning-up-an-express-server)
 [GET and Post Requests](reference-notes/get-and-post)
+[CRUD and REST](reference-notes/crud-and-rest)
 
