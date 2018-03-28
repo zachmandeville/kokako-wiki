@@ -3,7 +3,9 @@
 
 # The Cohort
 ## Annette
+Annette has an infectious goofiness and humor that is so welcome on tiring days.  Her humor helps give a pep to the rest of the group!
 ## Annika
+I love Annika's straightforward feedback and comments around the code, it helps keep the exercises grounded and focused.
 ## Anthony
 ## Ben
 ## Dana
