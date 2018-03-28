@@ -37,10 +37,13 @@ This works much like github, but there is only a master branch (it'll accept oth
 `git push heroku <your-branch-name>:master
 
 ## Configureing yr code so it works with heroku
+
+> ***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page**
+
 ### package.json
 Heroku runs your start script, so whatever you put there is what heroku will run. (this is found within your scripts section up top.)  It should be start: node index
 
-***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page***
+
 
 ### index.js
 
@@ -61,6 +64,6 @@ We are interested in the `var PORT` section.  For heroku, change it to.
 
 Which is saying "look at whatever port is set on the service i'm deployed on(heroku).  OR, if that's not available, use 3000". 
 
-***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page
+
 
 
