@@ -18,6 +18,7 @@ I love Annika's straightforward feedback and comments around the code, it helps 
 ## Priya
 ## Rosie
 ## Sam
+On March 28, Sam troubleshooted my server and was able to quickly isolate, diagnose, and fix the problem.  I was back on my feet faster than expected and for that I will be forever grateful.
 ## Steve
 The way he draws the code out and visualises the code before he types it out is awesome
 ## Theta
