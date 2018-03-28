@@ -1,4 +1,4 @@
-<!-- Handlebars -->
+<!--Title: Handlebars -->
 
 # Summary
 
