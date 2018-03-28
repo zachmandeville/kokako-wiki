@@ -17,6 +17,7 @@
 ## Rosie
 ## Sam
 ## Steve
+The way he draws the code out and visualises the code before he types it out is awesome
 ## Theta
 ## Zach
 Thanks for making this thing Zach! <anonymous turtle>
