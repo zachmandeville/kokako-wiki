@@ -35,7 +35,7 @@ Logs you out. important! !! !
 > ***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page**
 
 ### package.json
-Heroku runs your start script, so whatever you put there is what heroku will run. (this is found within your scripts section up top.)  It should be start: node index
+Heroku runs your start script, so whatever you put there is what heroku will run. (this is found within your scripts section up top.)  It should be start: `node index`
 
 ## Pushing to Heroku
 
