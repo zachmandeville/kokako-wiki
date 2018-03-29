@@ -18,7 +18,7 @@ Ways we talk about code to one another, to work together faster.
 [Super Test](super-test)
 [Cheerio](reference-notes/cheerio)
 
-#Node
+# Node
 [nodemon --inspect index --ignore data.json - remember this for later](reference-notes/node)
 # Templating
 [What we talk about when we talk about TEMPLATES](reference-notes/templating-overview)
@@ -31,5 +31,5 @@ Ways we talk about code to one another, to work together faster.
 [GET and Post Requests](reference-notes/get-and-post)
 [CRUD and REST](reference-notes/crud-and-rest)
 
-#Deploying
+# Deploying
 [Heroku Overview](heroku-overview)
