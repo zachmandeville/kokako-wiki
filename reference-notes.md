@@ -33,3 +33,4 @@ Ways we talk about code to one another, to work together faster.
 
 # Deploying
 [Heroku Overview](heroku-overview)
+[Setting up a node app from scratch using heroku](setting-up-node-server-on-heroku)
