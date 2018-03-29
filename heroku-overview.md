@@ -64,7 +64,3 @@ We are interested in the `var PORT` section.  For heroku, change it to.
 `var PORT = process.env.PORT || 3000`
 
 Which is saying "look at whatever port is set on the service i'm deployed on(heroku).  OR, if that's not available, use 3000". 
-
-
-
-
