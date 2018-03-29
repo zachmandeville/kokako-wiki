@@ -1,4 +1,4 @@
-<!-- TITLE: An Introductiont to Wiki -->
+<!-- TITLE: An Introduction to Wiki -->
 <!-- SUBTITLE: Wiki as a practice and not just a thing! -->
 
 # The Wiki 
