@@ -36,7 +36,7 @@ This works much like github, but there is only a master branch (it'll accept oth
 
 `git push heroku <your-branch-name>:master
 
-## Configureing yr code so it works with heroku
+### Configuring yr code so it works with heroku
 
 > ***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page**
 
