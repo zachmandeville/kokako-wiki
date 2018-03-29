@@ -40,7 +40,7 @@ Check out the app page here: [Meowtown2](meowtown2)
 
 
 # Other Resources
-[How We deployed our app to heroku from a personal machine](collaborate-from-a-personal-machine)
+* [How to work with our repo from your personal machine](collaborate-from-a-personal-machine)
 
 
 
