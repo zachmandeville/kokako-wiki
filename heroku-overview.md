@@ -27,7 +27,7 @@ Will create a new app, hosted on heroku at name-of-your-app.herokuapp.com
 `heroku logs`
 Will list the logs on your server (so if you entered console.logs they'd appear here)
 
-'heroku auth:logout'
+`heroku auth:logout`
 Logs you out. important! !! ! 
 
 ## Pushing to Heroku
