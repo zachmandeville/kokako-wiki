@@ -1,4 +1,4 @@
-# Week One: Group Four
+# Week One: Group Two
 
 # Meeting Notes
 - Set up values and working practices.
