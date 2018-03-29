@@ -36,8 +36,7 @@ Check out the app page here: [Meowtown2](meowtown2)
 
 # The tools we use to collaborate
 - We have a group channel on Slack
-- We are tracking issues on waffle.io: [check out our board](
-
+- We are tracking issues on Trello.  [Check out our board!](https://trello.com/b/gEEFxcPP/meowtown2)
 
 # Other Resources
 * [How to work with our repo from your personal machine](collaborate-from-a-personal-machine)
