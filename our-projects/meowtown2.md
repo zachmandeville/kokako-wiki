@@ -15,12 +15,13 @@ Tips for writing user stories:
 * **As a user, I can customize the types of animals I want to see, so I get a personalized selection of photos.**
 * **As a user browsing through my photos, I can select when I am done so I can return to the grind.**
 * **As a user, I will see one photo at a time, and can click "next" to see the next one.**
-
-From these initial stories, and our summary, we have a working description of an MVP(minimum viable product):
+# Our MVP
+By combinging these initial user stories with our summary, we have a working description of an MVP(minimum viable product):
 
 **"With Meowtown2, someone can visit our site during a break from coding, put in some simple criteria for the type of animals they'd like to see, then click through a selection of photos that match that criteria.  When they feel appropriately calmed, they can end their session and get back to coding."**
 
-## Stretch stories
+# Stretch stories
+If we can do these things, once the mvp is done, it'd be awesome!
 **As a user, I can choose from a variety of options beyond just species.**
 **As a user, I can submit my own animal photos, with descriptors.**
 
