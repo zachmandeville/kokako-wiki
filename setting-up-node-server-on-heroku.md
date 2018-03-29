@@ -8,22 +8,28 @@ You need git, node, and yarn.  You can check whether you have them on your compu
 `yarn --version`
 Each of these should return a version number, _if_ you have the the tool installed on your computer.  If not, you'll need to search, download, and install each one.
 
-# Make a new directory and initialize git within it.
-`mkdir mycoolapp && cd mycoolapp`  This means "make directory called mycoolapp AND change directories into this one.
-`git init` This will initialize an empty git repo here.
+# Make a new git repo and clone it to yr computer
+This can be empty, we just want the directory to be a _git_ directory
+So make it on github then do:
+`git clone https://github.com/myname/mycoolapp.git`
+`cd mycoolapp`
 
-# Header# Make sure you have all the dependencies
+# initialize your repo as a _node_ repo
+Run `yarn init -y` within your repo.  This initializes all the things you need for node like a package.json and a yarn.lock file... the -y just says 'yes' to all the default things yarn would ask during the usual init.
+# Make sure you have all the dependencies installed
+### Dependencies for running tests
+`yarn add jest` our testing module.
+`yarn add supertest` this works with jest so that we can test http responses
+`yarn add cheerio` for parsing the html requests like they jquery.
+`yarn add nodemon` so you can debug code by making changes while the server is running and hot reloading it. (instead of having to turn off and on your server to see the change.
 
-* initialize this as a node app with `yarn init -y`
-	* This will create a package.json file connected to our github repo.
-* Install the yarn dependencies
-	* jest and supertest and cheerio for testing
-	* nodemon for debugging.
-	* express for server
-	* express-handlebars for templating
-	* body-parser for middleware
+### Dependencies for spinning up that server
+`yarn add express` .  Express is our server module.
+`yarn add express-handlebars` this adds the ability to use handlebar templating with express.
+`yarn add body-parser` this is necessary for the middleware that makes handlebar function (you'll see it in the server.js file later on in this apge.)
 
-* Add scripts for testing and starting the server:
+# Edit your package.json to use your cool modules.
+Within your top app object add a scripts object, it'd look like so:
 ```js
   "scripts": {
     "debug": "nodemon --inspect index --ignore data.json",
@@ -32,14 +38,16 @@ Each of these should return a version number, _if_ you have the the tool install
 }
 ```
 
-"debug" nodemon means when we run 'yarn debug' , it'll use nodemon
-'test" just means we'll use jest.  the two additional flags are so the tests continually run.
-"start" means when we do 'yarn start' it starts it up using just straight up node.
+The three scripts do the following:
 
+`"debug": "nodemon --inspect index --ignore data.json"` we run 'yarn debug' , it'll use nodemon to start the server.  For everything else, we just use node.
+`"test": "jest --watch --noStackTrace"` just means we'll use jest.  the two additional flags are so the tests continually run.
+`"start": "node index"` means when we do 'yarn start' it starts it up using just straight up node (as compared to yarn debug).
 # Create an index.js file
-This will spin up the server we define in our server.js page
+This determines what port will be used when  you run yarn start.  For Heroku, it important that you set the port variable with process.env.PORT || 3000.  This lets heroku use whichever port it needs to, or if you're not using heroku(like running this on a local server) it'll use 3000.
 
-It should like like so:
+The script would look like so:
+
 ```js
 var PORT = process.env.PORT || 3000
 
@@ -54,7 +62,7 @@ This will be the one that actually says 'hello world'
 
 Should look like this:
 ```js
-var express = require('express') // Use express for server
+var express = require('express') // Use express for server 
 var hbs = require('express-handlebars') //Use handlebars for our templating
 var bodyParser = require('body-parser') //?? I think it's used for handlebar
 
@@ -70,7 +78,8 @@ server.set('view engine', 'hbs')
 server.use(express.static('public'))
 server.use(bodyParser.urlencoded({ extended: false }))
 
-server.get('/', function (req,res) {
+//When the server receives a request for the home directory ('/'), then send back 'hello world' as the response.
+server.get('/', function (req,res) { /
   res.send('hello world!')
 })
 
@@ -81,8 +90,12 @@ module.exports = server
 `yarn start` should start up a server at localhost:3000 and it should say 'hello world'.
 
 
-# Do that heroku stuff.
+# Get it on Heroku
+## Download and install heroku on your local machine.
 Follow the instructions on our [heroku page](http://kokako.solarpunk.cool:3000/heroku-overview) 
 ## Push to github (to make sure all recent changes are on your remote git repo)
+Go through the ritual of adding, commiting, and pushing to github so that index and server file and all that are added to your repo.
 ## create a heroku app
-## push with git with `git push heroku <branchname>:master`
+Inside your repo invoke the command `heroku create {nameOfApp}`  This will make a new app on heroku for you available at the address nameOfApp.herokuapp.com
+## push your repo up to Heroku
+You can do this with git, actually, by invoking the following command when in your directory: `git push heroku <branchname>:master`.  This pushes whatever content is at the branch you specified up to heroku.
