@@ -1,6 +1,11 @@
 <!-- TITLE: How to Collaborate From A Personal Machine -->
 <!-- SUBTITLE: A quick summary of Collaborate From A Personal Machine -->
 
+# Background
+If you are wanting to help work with our code, you'll need to make sure you have all the right tools installed on your computer.  Here's what we use!
+
+## Clone The Repo
+
 # Make sure you have all the dependencies
 * Clone the repo from github
 `git clone https://github.com/Kokako-2018/meowtown2.git`
