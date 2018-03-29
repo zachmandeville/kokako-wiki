@@ -31,6 +31,6 @@ Ways we talk about code to one another, to work together faster.
 [GET and Post Requests](reference-notes/get-and-post)
 [CRUD and REST](reference-notes/crud-and-rest)
 
-# Deploying
+# Deploying and Heroku
 [Heroku Overview](heroku-overview)
 [Setting up a node app from scratch using heroku](setting-up-node-server-on-heroku)
