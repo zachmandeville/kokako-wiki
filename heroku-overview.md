@@ -30,19 +30,18 @@ Will list the logs on your server (so if you entered console.logs they'd appear 
 'heroku auth:logout'
 Logs you out. important! !! ! 
 
-## Configuring your code so it works with heroku
-
-> ***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page**
-
-### package.json
-Heroku runs your start script, so whatever you put there is what heroku will run. (this is found within your scripts section up top.)  It should be start: `node index`
-
 ## Pushing to Heroku
 
 This works much like github, but there is only a master branch (it'll accept other branches, but they don't do anything).  To push to heroku, from your specific branch, you'd use:
 
 `git push heroku <your-branch-name>:master
 
+## Configureing yr code so it works with heroku
+
+> ***Note about creating app on command line vs on the web: if you create your app on the web rather than locally on your computer, you miss a step. You'll need to run a separate command to set the git remote heroku to your new /<appname>.git page**
+
+### package.json
+Heroku runs your start script, so whatever you put there is what heroku will run. (this is found within your scripts section up top.)  It should be start: node index
 
 
 
@@ -64,3 +63,7 @@ We are interested in the `var PORT` section.  For heroku, change it to.
 `var PORT = process.env.PORT || 3000`
 
 Which is saying "look at whatever port is set on the service i'm deployed on(heroku).  OR, if that's not available, use 3000". 
+
+
+
+
