@@ -4,11 +4,13 @@
 # Background
 If you are wanting to help work with our code, you'll need to make sure you have all the right tools installed on your computer.  Here's what we use!
 
+### k
+
 ### Clone The Repo
+`git clone https://github.com/Kokako-2018/meowtown2.git`
 
 # Make sure you have all the dependencies
-* Clone the repo from github
-`git clone https://github.com/Kokako-2018/meowtown2.git`
+
 * cd into the repo `cd meowtown2`
 * Check whether we have yarn and node
 `yarn --version` should give you a response like `1.5.1`.  If you don't have it, you can install it by following isntructions here: https://yarnpkg.com/lang/en/docs/install/
