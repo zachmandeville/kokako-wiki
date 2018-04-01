@@ -10,9 +10,9 @@ This page collects notes that aren't necessarily specific to a language (or aren
 [Math, Programming, and Gossip](reference-notes/math-programming-and-gossip)
 [Basic Functions and the Spoon](reference-notes/basic-functions-and-the-spoon)
 # Working Together
+Ways we talk about code to one another, to work together faster.
 [Being Curious](reference-notes/being-curious)
 [Talking About Code](talking-about-code)
-Ways we talk about code to one another, to work together faster.
 # Test Driven Development
 [Overview of Test Driven Development](reference-notes/test-driven-development-overview)
 [Super Test](super-test)
@@ -33,4 +33,7 @@ Ways we talk about code to one another, to work together faster.
 
 # Deploying and Heroku
 [Heroku Overview](heroku-overview)
-[Setting up a node app from scratch using heroku](setting-up-node-server-on-heroku)
+[Setting up a node app from scratch using heroku](reference-notes/setting-up-node-server-on-heroku)
+
+#Databases
+[Databases Overview](reference-notes/databases-overview)
