@@ -32,4 +32,4 @@ Logs you out. important! !! !
 
 ## Pushing to Heroku
 
-There's step by step instructions for how you'd do this here: [Setting up Node Server on Heroku](setting-up-node-server-on-heroku)
+There's step by step instructions for how you'd do this here: [Setting up Node Server on Heroku](reference-notes/setting-up-node-server-on-heroku)
