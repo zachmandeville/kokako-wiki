@@ -73,6 +73,31 @@ A type of database that is "light".  It's a full-spec database, but doesn't requ
 
 We'll be saving our data in a sqlite3 file that is readable by sql but not by us.   To have a more visual access to our database, we can use DB Browser for SQLite.
 
+#Testing with Databases
+
+## Joining Data - Two tables
+
+Vehicles
+id:unique indentifier
+* wheel - count
+* engine-number
+* speed-identifier
+* colour
+* accessories
+* door-count
+* model-**id**
+
+vehicle table links to models table through the ** unique model id** aka **unique identifier** aka **prime key**
+
+Models 
+id: **unique identifier**
+corolla - year
+
+
+Database relationships
+one to many
+many to manay 
+one to one
 
 ## Joining Data - Two tables
 

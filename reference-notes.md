@@ -11,6 +11,7 @@ This page collects notes that aren't necessarily specific to a language (or aren
 [Basic Functions and the Spoon](reference-notes/basic-functions-and-the-spoon)
 # Working Together
 Ways we talk about code to one another, to work together faster.
+[Good tips for Communication](reference-notes/communication-tips)
 [Being Curious](reference-notes/being-curious)
 [Talking About Code](talking-about-code)
 # Test Driven Development
@@ -37,3 +38,4 @@ Ways we talk about code to one another, to work together faster.
 
 #Databases
 [Databases Overview](reference-notes/databases-overview)
+[Joining of Tables](reference-notes/joining-of-tables)
