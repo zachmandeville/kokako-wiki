@@ -98,3 +98,26 @@ one to many
 many to manay 
 one to one
 
+**Join using a Query**
+
+```text
+db = database
+
+
+//all models
+db('models').select('id','name')
+
+//all vehicles
+db('vehicles').select()
+
+//red vehicles
+db('vehicles').where('colour','red').select()
+
+//vehicles by model
+db('vehicles').join('models', 'model_id', '=', 'models.id')
+	.where('models.name', 'corolla')
+	.select()
+```
+
+
+
