@@ -104,16 +104,16 @@ one to one
 db = database
 
 
-//all models
+//show a model
 db('models').select('id','name')
 
-//all vehicles
+//show all vehicles
 db('vehicles').select()
 
 //red vehicles
 db('vehicles').where('colour','red').select()
 
-//vehicles by model
+//join vehicles by model
 db('vehicles').join('models', 'model_id', '=', 'models.id')
 	.where('models.name', 'corolla')
 	.select()
