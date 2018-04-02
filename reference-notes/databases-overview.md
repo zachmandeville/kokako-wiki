@@ -75,17 +75,27 @@ We'll be saving our data in a sqlite3 file that is readable by sql but not by us
 
 #Testing with Databases
 
-```js
-beforeEach( function () {
-  testDb = testEnv.getTestDb()
-  return testEnv.initialize(testDb)
-```
-This function is at the top of our test suite for databases, and it creates a new database every time we test.
-It is followed up with.
+## Joining Data - Two tables
 
-```js
-afterEach(function () {
-  testEnv.cleanup(testDb
-})
-```
-Whichh destroys the database upon the conclusion of the test.
+Vehicles
+id:unique indentifier
+* wheel - count
+* engine-number
+* speed-identifier
+* colour
+* accessories
+* door-count
+* model-**id**
+
+vehicle table links to models table through the ** unique model id** aka **unique identifier** aka **prime key**
+
+Models 
+id: **unique identifier**
+corolla - year
+
+
+Database relationships
+one to many
+many to manay 
+one to one
+
