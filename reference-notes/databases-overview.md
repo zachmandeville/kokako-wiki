@@ -99,3 +99,27 @@ one to many
 many to manay 
 one to one
 
+## Joining Data - Two tables
+
+Vehicles
+id:unique indentifier
+* wheel - count
+* engine-number
+* speed-identifier
+* colour
+* accessories
+* door-count
+* model-**id**
+
+vehicle table links to models table through the ** unique model id** aka **unique identifier** aka **prime key**
+
+Models 
+id: **unique identifier**
+corolla - year
+
+
+Database relationships
+one to many
+many to manay 
+one to one
+
