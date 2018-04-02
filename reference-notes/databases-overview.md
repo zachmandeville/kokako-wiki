@@ -73,4 +73,19 @@ A type of database that is "light".  It's a full-spec database, but doesn't requ
 
 We'll be saving our data in a sqlite3 file that is readable by sql but not by us.   To have a more visual access to our database, we can use DB Browser for SQLite.
 
+#Testing with Databases
 
+```js
+beforeEach( function () {
+  testDb = testEnv.getTestDb()
+  return testEnv.initialize(testDb)
+```
+This function is at the top of our test suite for databases, and it creates a new database every time we test.
+It is followed up with.
+
+```js
+afterEach(function () {
+  testEnv.cleanup(testDb
+})
+```
+Whichh destroys the database upon the conclusion of the test.
