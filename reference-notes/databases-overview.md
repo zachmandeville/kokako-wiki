@@ -86,7 +86,7 @@ id:unique indentifier
 * door-count
 * model-**id**
 
-vehicle table links to models table through the ** unique model id** / **unique identifier**/ **prime key**
+vehicle table links to models table through the ** unique model id** aka **unique identifier** aka **prime key**
 
 Models 
 id: **unique identifier**
