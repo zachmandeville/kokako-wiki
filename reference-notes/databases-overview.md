@@ -74,7 +74,7 @@ A type of database that is "light".  It's a full-spec database, but doesn't requ
 We'll be saving our data in a sqlite3 file that is readable by sql but not by us.   To have a more visual access to our database, we can use DB Browser for SQLite.
 
 
-## Two tables
+## Joining Data - Two tables
 
 Vehicles
 id:unique indentifier
