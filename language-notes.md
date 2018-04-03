@@ -17,6 +17,7 @@
 [Regular Expressions](javascript/regular-expressions)
 [data coercion](javascript/data-coercion)
 [Pass By Reference](javascript/pass-by-reference)
+[Promises Overview](javascript/promises-overview)
 ## Higher Order Functions
 [[Async Function](javascript/async-functions)
 [Callback Functions](javascript/callback-functions)

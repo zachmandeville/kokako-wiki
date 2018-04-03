@@ -47,3 +47,9 @@ The select is going to grab _all_ the column data from both tables (since we joi
 `.select('vehicles.id','models.name')`  
 This would return the vehicle ID and the model name that vehicle is.
 
+
+# Many to  Many
+
+If you have a situation where a row in one table can have multiple entries in another table, you'll have a many to many relation.
+
+A good example is a student who could be a part of many different groups, and you want to run a query to see what groups they are a part of.  There'd be a student table, and there'd be a groups table.  You couldn't map direct one to one, as you'd end up with impossible double entries.  So, instead, you make a _third_ table: students in groups.  This would reference the group id and the student id, and allow you to have multiple entries then for one student per group they are a part of.
