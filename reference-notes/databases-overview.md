@@ -20,7 +20,8 @@ A library for connecting and communicating with sql.  Like yarn, Knex requires a
 For our purposes, we can really use the default settings of that knex file.  It tell us "we are going to be using sqlite and storing our data in a data folder with the extension .sqlite3"
 
 ## Migration
-Migrations are a way to make our database live with our code, they are a way of being able to change our structure of the code, they are a way of keeping different copies of the code
+Migrations are a way to make our database live with our code, they are a way of being able to change our structure of the code, they are a way of keeping different copies of the code.
+Use migrations to change the structure of our databases, such as adding columns or creating new tables.
 
 One of the first things we'll do.  It manages how we migrate data between different database structures.  (for example, having a 'todo-list" table that takes information from your 'people' database.  The file would help how we migrate data between these two tables.
 
@@ -151,6 +152,4 @@ db('vehicles').join('models', 'model_id', '=', 'models.id')
 ```
 
 ## yagni - you aint gonna need it 
-
-
 
