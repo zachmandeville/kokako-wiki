@@ -8,18 +8,16 @@ bundle.js
 
 entry :
 output:
+package.json
+srcipt { "start": "node server & webpack --watch"}
 
-srcipt { "start": "node server & webpack --watch"
-
-html 
+## react
+This is required in HTML
+```text
 <div id=root> < /div>
 
 <script src=bundle.js></script>
-
-## react
-
-
-
+```
 
 This is my index.js
 ```text
