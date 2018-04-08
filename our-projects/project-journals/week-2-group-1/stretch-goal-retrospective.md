@@ -256,13 +256,15 @@ This is going to return an array of requests.  In other words, it's going to ret
 This is best explained within the html, so here it is in full below!
 
 ```html
+<!-- Since we've  passed in two blocks of data (owners and requests), we need to specify which block of data we're referring to in each 
+of the handlebars. So in this top header we want the name from the owner data-->
 <h1>{{owner.name}}</h1> 
-{{!-- Since we've  passed in two blocks of data (owners and requests), we need to specify which block of data we're referring to in each of the handlebars. So in this one we want the name from the owner data--}}
-<h2>You are cool!</h2>
 <a href='/owner/2/new' title='add a new dog'><button>Add a dog?</button></a>
 <h2>Requests for {{owner.dog_name}}</h2>
+<!-- Now for each of the requests from the requests data (because a dog might have more than one request) show the walker and an option to 
+change the status.  This will ultimately be a form the owner can submit (to accept the request).  So let's just make it a form now.
+In the future, we can also filter this to only show pending.  We won't worry about that for right now though, cos of time. -->
 {{#each requests}} 
-{{!-- Now for each of the requests from the requests data (because a dog might have more than one request) show the walker and change the status--}}
 <form action='/owner/:id', method='post'>
     <p>{{walker}} would like to walk your dog.</p> 
     <select name='status'>
@@ -277,3 +279,13 @@ This is best explained within the html, so here it is in full below!
 <a href='/'><button>back</button></a>
 ```
 
+That is really it!  Or rather, we hit 3:30 at this point and couldn't do the form functions and such. so we have a useful start.
+
+# Final Step: Test it!
+
+We can write tests (and we will!) but for now we should be able to click on Charmander (which is owned by ash, owner_id 1), request to walk them and say our name is Sabrina.  Then, when we go to /owner/1 we should see that Sabrina has requested to walk our dog Charmander, and a dropdown to choose whether we want to leave it in pending, approve it, or disapprove it.
+
+Upong running through this story, all the parts work.  We did it well enough to present!
+
+# Wrap up
+That's the thinking and writing of our stretch goal.  Next up would be to allow for all the dogs for owners iwth mutliple ones, and to be able to submit approvals.  The future be so bright, we'll have to wear shades!
