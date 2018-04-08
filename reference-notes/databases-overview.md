@@ -152,4 +152,9 @@ db('vehicles').join('models', 'model_id', '=', 'models.id')
 ```
 
 ## yagni - you aint gonna need it 
+When someone asks for something that is pointless
+
+## afternoon code line 
+
+
 
