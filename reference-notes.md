@@ -39,3 +39,6 @@ Ways we talk about code to one another, to work together faster.
 #Databases
 [Databases Overview](reference-notes/databases-overview)
 [Joining of Tables](reference-notes/joining-of-tables)
+[Make Queries from Multiple Tables](reference-notes/making-queries-from-multiple-tables)
+[Migrations](reference-notes/migrations)
+[Testing Databases](reference-notes/testing-databases)
