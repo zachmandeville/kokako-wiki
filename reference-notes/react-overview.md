@@ -73,7 +73,7 @@ To do this it needs keys. You may find an error in your browser without them.
 ```function App (props) {
 	 return (
 	 <div>
-		 <h1>{posts.map(post) => {
+		 {posts.map(post) => {
 			 return (<Post key={post.title} title={post.title}/>)}}</h1>
 	 </div>
  )
