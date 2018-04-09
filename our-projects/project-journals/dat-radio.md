@@ -23,6 +23,7 @@ Dat Radio is currently in Alpha, there is one version of it on dat and also a yo
 The creator of dat radio, [Alexander Cobleigh](https://cblgh.org/) gave a 30 minute talk on building decentralized apps.  At the end he gave a demo of dat radio.
 The talk can be found here: https://www.youtube.com/watch?v=-0cgl6okmUs&feature=youtu.be&t=1670
 Here are my notes from watching the talk: [notes on making decentralized apps](decentralized-app-video-notes)
+
 ## Made a basic Beaker app
 I want to better understand how beaker (and dat) works, before I try to figure out the datradio code.  There are a number of tutorials on the beaker homepage i can use to learn more.  
 
@@ -34,7 +35,26 @@ I am realizing that it requires using jekyll, and presumes an understanding of t
 
 The point of this is showing how you can move an entire folder over to beaker and it still works.  so you do your work offline and get it looking good, and then dat from that point forward will publish that blog to the rest of the world.
 
+Done and done!
 
+## Got Buffet of Demos and DatRadio working on local machine.
 
+@clbgh made up an intro to dat apps, which I forked here:  https://github.com/zachmandeville/decent-dat-intro
+
+This is a great repo/talk as it provides the source for each of the sites he mentioned.  So I can get them working on my own browser (and so essentially be serving them up myself), and then study how exactly they work.  
+
+The easiest one to follow, most likely, is the read/write site.  I forked the site here:
+<dat://4b9b475826314432f930122835130f298c4e333ad104a237e6ff38195334ffd1/>
+
+Here is my study on how it works!
+[exploring how read/write on dat](dat-read-write-exploration)
+
+## Add a function to a simple site like read/write
+
+One of the demo sites let you change the background based on whatever you input.  I realized that the code was simple enough that I could try an experiment on it.
+
+Currently, the font is a file located in the archive, and then set in the CSS file.  Since you can change the body background color easily, i imagine you could change the font too.  
+
+[How I made a feature to chang ethe font on a site](font-changing-feature)
 
 # Necessary Resources
