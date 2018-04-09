@@ -66,3 +66,21 @@ A couple rules about them:
 - They always start with a capital letter.  so `myTemplate` becomes `MyComponent`
 - You can add components within each other with `<MyOtherComponent />`
 
+# Keys and the Shadow DOM
+React keeps its own copy of what it tinks the DOM should look like in memory - the shadow DOM.. it then looks at what the difference between the DOM/Shadow DOM is and only changes the parts that are different...
+To do this it needs keys. You may find an error in your browser without them.
+
+```function App (props) {
+	 return (
+	 <div>
+		 <h1>{posts.map(post) => {
+			 return (<Post key={post.title} title={post.title}/>)}}</h1>
+	 </div>
+ )
+}
+```
+
+
+
+
+
