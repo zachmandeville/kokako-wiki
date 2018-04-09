@@ -54,7 +54,16 @@ require data
 pass data into function with (props)
 then run your map function
 
-``    {props.recentEntries.map (function (entry) {
-            return <li><a href={entry.link}><h2>{entry.name}</h2></a></li>})``
+```    {props.recentEntries.map (function (entry) {
+            return <li><a href={entry.link}><h2>{entry.name}</h2></a></li> })```
+						
+##  object orientated programming in react
+
+class App extends React.Component{ 
+				constructor(props) {
+						super(props)
+				}
+				
+				
 						
 						
