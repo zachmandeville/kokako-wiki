@@ -9,6 +9,7 @@ This page collects notes that aren't necessarily specific to a language (or aren
 # Programming Thoughts
 [Math, Programming, and Gossip](reference-notes/math-programming-and-gossip)
 [Basic Functions and the Spoon](reference-notes/basic-functions-and-the-spoon)
+[Imports and Exports](reference-notes/imports-and-exports)
 # Working Together
 Ways we talk about code to one another, to work together faster.
 [Good tips for Communication](reference-notes/communication-tips)
@@ -45,3 +46,5 @@ Ways we talk about code to one another, to work together faster.
 
 #React
 [React Overview](reference-notes/react-overview)
+[React Classes](reference-notes/react-classes)
+[React Routing](reference-notes/react-routing)

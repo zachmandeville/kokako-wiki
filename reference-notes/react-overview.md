@@ -80,6 +80,10 @@ To do this it needs keys. You may find an error in your browser without them.
 }
 ```
 
+# Import, Export
+
+These are new features of es6 based off the require module in npm.
+
 
 
 
