@@ -48,3 +48,4 @@ Ways we talk about code to one another, to work together faster.
 [React Overview](reference-notes/react-overview)
 [React Classes](reference-notes/react-classes)
 [React Routing](reference-notes/react-routing)
+[React and Restful](reference-notes/react-and-restful)
