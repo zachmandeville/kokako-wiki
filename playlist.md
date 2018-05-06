@@ -26,5 +26,8 @@
 
 * Toby Fox - Hopes and Dreams
 
+# Other Good things to Listen To
+
+- [Gooey Sunset Yoga Mix](https://soundcloud.com/ean-golden/gooey-sunset-yoga-mix-1)  : Terrible name but incredible mix.  V. High energy, while letting you focus on that sweet code. 
 
 
