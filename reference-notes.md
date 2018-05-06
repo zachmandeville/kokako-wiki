@@ -49,3 +49,17 @@ Ways we talk about code to one another, to work together faster.
 [React Classes](reference-notes/react-classes)
 [React Routing](reference-notes/react-routing)
 [React and Restful](reference-notes/react-and-restful)
+[React Components](reference-notes/react-components)
+[Building up a React and Redux Boilerplat](reference-notes/react-and-redux-boilerplate)
+[[actions and bureaucracy]]
+
+
+# API
+[API Overview](reference-notes/api-overview)
+[Postman](reference-notes/postman)
+
+#Redux
+[Redux Overview](reference-notes/redux-overview)
+[Refactoring Redux](reference-notes/refactoring-redux)
+[Spinning up Redux-React](reference-notes/spinning-up-react-redux)
+[Redux Form](reference-notes/redux-form)

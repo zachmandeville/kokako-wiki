@@ -21,8 +21,8 @@ Collected studies for the Maori language.
 Collected notes and strategies for our different cohort projects.
 *  [Our Cohort](our-cohort)
 Nice things we've collected about each other!
-
+#[Playlist](playlist)
 ## Other Fantastic Resources
+- [Digital Security Resources](digital-security-resources)
 - [Our Student Handbook](https://github.com/Kokako-2018/student-handbook)
 - [Our Kokako Repo](https://github.com/Kokako-2018)
-- 
