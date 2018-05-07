@@ -37,9 +37,11 @@ browserify bundles up all our various modules and folders and dependencies into 
 `npm i browserify watchify tinyify babelify --save-dev`
 
 installing browserify, watchify (to run a live-reload 'watch' mode of our client), tinyify('to minify all the code we are running, so that bundle.js file is smaller and faster), babelify(to use 'babel' with browserify.  babel translates es6 code down to es3, so your site can be viewable on older browsers).
+
 ## 5.) Install babel dependencies.
 These dependencies just help babel work, and tells it _what_ you want babelified and to whaat other thing.
-`npm i babel-core babel-preset-es2015`
+`npm i babel-core babel-preset-es2015 babel-preset-react`
+
 ## 6.) Install budo, for 'deploying' your site to local host.
 To have all the code run on the client, we need to first bundle it up.  But what if we wanna see how it'll look before it's bundled?  For that, we need to make a pretend server of sorts, that can serve up all our files to the localhost and make the app run as if everything were bundled.  This helps us whend eveloping, so we can see the effets of our changes without having to run 'npm run build' everytime we make a change.  
 
@@ -72,7 +74,18 @@ We don't need the repo seeing any of these files.
 
 ## 9.) Make .babelrc
 
-V IMPORTANT
+This is used to make sure babel is compiling in the right way.  If you are trying to run dev, but you're getting an error that React is not working, essentially, it's likely cos you forgot this step.
+
+You will put in the preset for how it transposes es6 code, and what syntax to transpose it to and that babel should be aware of the language of react.  It will look like this:
+
+```
+{
+"presets": [
+   "es2015",
+   "react"
+  ]
+}
+```
 
 ## 10.) Set Basic Folder Structure
 

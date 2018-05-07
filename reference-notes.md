@@ -50,7 +50,7 @@ Ways we talk about code to one another, to work together faster.
 [React Routing](reference-notes/react-routing)
 [React and Restful](reference-notes/react-and-restful)
 [React Components](reference-notes/react-components)
-[Building up a React and Redux Boilerplat](reference-notes/react-and-redux-boilerplate)
+[Building up a React and Redux Boilerplate](reference-notes/react-and-redux-boilerplate)
 [[actions and bureaucracy]]
 
 
@@ -63,3 +63,10 @@ Ways we talk about code to one another, to work together faster.
 [Refactoring Redux](reference-notes/refactoring-redux)
 [Spinning up Redux-React](reference-notes/spinning-up-react-redux)
 [Redux Form](reference-notes/redux-form)
+
+#React and Redux
+[Rebuilding Meowtown as a React/Redux App](reference-notes/rebuilding-meowtown)
+
+#Breakout  Sessions
+[Breakout Session on Architecture](/reference-notes/breakout-on-architecture)
+[Breakout Session on Open Source](/reference-notes/open-source)
