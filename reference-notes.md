@@ -58,15 +58,15 @@ Ways we talk about code to one another, to work together faster.
 [API Overview](reference-notes/api-overview)
 [Postman](reference-notes/postman)
 
-#Redux
+# Redux
 [Redux Overview](reference-notes/redux-overview)
 [Refactoring Redux](reference-notes/refactoring-redux)
 [Spinning up Redux-React](reference-notes/spinning-up-react-redux)
 [Redux Form](reference-notes/redux-form)
 
-#React and Redux
+# React and Redux
 [Rebuilding Meowtown as a React/Redux App](reference-notes/rebuilding-meowtown)
 
-#Breakout  Sessions
+# Breakout  Sessions
 [Breakout Session on Architecture](/reference-notes/breakout-on-architecture)
 [Breakout Session on Open Source](/reference-notes/open-source)
