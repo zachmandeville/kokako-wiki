@@ -21,7 +21,7 @@ But also know that react is a framework _for_ complex apps, and so has necessary
 
 # Steps
 
-## 1.) create a git repo and clone it to yoru computer.  Then cd into that repo.
+## 1.) create a git repo and clone it to your computer.  Then cd into that repo.
 ## 2.) initialize this repo as an npm repo
 In other words, say 'in this directory node shall live.'  So, let's invite node in:
 `npm init -y`
